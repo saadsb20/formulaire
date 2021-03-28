@@ -1,0 +1,178 @@
+body{
+   background-color: rgba(255,255,255);
+
+}
+#title h1{
+  
+   text-align: center;
+   background-color: rgba(17,120,157,0.8);
+   color: #fff;
+}
+#faculté{
+   border-radius: 10px;
+
+}
+#Inscription{
+   margin-top: 150px;
+   border-radius: 8px;
+}
+#form-cadre{
+   border-radius: 10px;
+   background:  rgba(17,120,157);  
+   background-position: center;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   padding-bottom: 40px ;
+}
+.col-lg-6{
+   padding-left: 60px;
+   padding-right: 60px;
+}
+
+/* Animations */
+.animate-circle {
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: loop;
+}
+@keyframes loop {
+  0% {         
+    transform:scale(1);       
+  }
+  5% {    
+     transform:scale(1.6);         
+  }
+  10% {  
+    transform:rotateZ(720deg);     
+  } 
+  20% {
+    transform:scale(1);    
+  }  
+}
+.logo {  
+  transform:scale(0.5);
+  width: 525px;
+  height: 250px;  
+  top:50%;
+  left:50%;
+}
+img {
+   width: 380px;
+}
+h1.col-lg-6 {
+   margin-top: 150px;
+   padding-left: 0;
+   border-radius: 6px;
+}
+h1 {
+   font-weight: normal;
+   margin-top: 25px;
+   letter-spacing: 5px;
+   color: #fff;
+
+}
+.animate-circle {
+   text-align: center;
+}
+#info-per h1{
+   color: #fff;
+}
+
+.form-label {
+   margin-bottom: .5rem;
+   font-size: 20px;
+   text-transform: uppercase;
+   color: #fff;
+}
+select#inputGroupSelect01 {
+   width: 77%;
+   border-radius: 0px 6px 6px 0px;
+}
+.form-control[type=file]:not(:disabled):not([readonly]) {
+   cursor: pointer;
+   margin-bottom: 40px;
+}
+input#start {
+   width: 100%;
+}
+label {
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 20px;
+}
+div.Info-per {
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.input-group-text {
+   display: flex;
+   align-items: center;
+   padding: 4px;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #fff;
+   text-align: center;
+   white-space: nowrap;
+   background-color: rgba(17,120,157,1);  ;
+   border: 1px solid #fff;
+   border-radius: 5px 0 0 5px ;
+   width: 120px;
+}
+#input-group-prepend{
+   margin-left: 1px;
+}
+input[type="number"] {
+   border-radius: 5px;
+}
+#info-aca{
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+select#inputGroupSelect02 {
+   width: 81%;
+}
+
+#Envoyer{
+   text-align: center;
+   margin-bottom: 100px;
+   margin-top: -40px;
+}
+#Envoyer button{
+   background-color: rgb(17,120,157); 
+   border-radius: 50%;
+   width: 200px;
+   height: 50px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
